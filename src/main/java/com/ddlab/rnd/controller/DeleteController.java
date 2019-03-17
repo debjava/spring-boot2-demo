@@ -1,6 +1,5 @@
 package com.ddlab.rnd.controller;
 
-import com.ddlab.rnd.entities.Employee;
 import com.ddlab.rnd.service.EmpService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -15,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Api(
-    value = "Delete Employe Info in an Organization",
+    value = "Delete Employee Info in an Organization",
     description = "API for all Employees",
     tags = {"Employee deletion"})
 @RequestMapping(value = "/delete")
